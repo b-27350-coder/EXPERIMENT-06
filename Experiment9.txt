@@ -1,0 +1,39 @@
+#Design using UML diagrams.
+
+#Use Case Diagram (Text Description)
+
+Actors: User
+Use Cases:
+
+Login
+
+Register
+
+View Data
+
+Logout
+
+#Class Diagram (Text)
+
+Class: Student
+Attributes:
+
+name
+
+rollNo
+
+Methods:
+
+login()
+
+logout()
+
+#Sequence Diagram (Steps)
+
+User → Login request
+
+System → Validate user
+
+System → Grant access
+
+User → View dashboard
